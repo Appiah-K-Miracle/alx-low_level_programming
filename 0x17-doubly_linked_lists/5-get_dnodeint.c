@@ -21,7 +21,7 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	if (index == totalSize)
 	return (items);
 	totalSize++;
-	items= items->next;
+	items = items->next;
 	}
 	return (NULL);
 }
